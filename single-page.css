@@ -77,8 +77,6 @@ h5 {
   color: #4DBCD7;
 }
 
-
-
 .quoteContainer:before {
   content: '❝';
   position: absolute;
@@ -107,6 +105,7 @@ h5 {
 
   .left-column-1557421947080 {
     height: auto;
+    display: block;
   }
 
   .left-column-1557421947080 .clock-action-none-1557421947080 {
