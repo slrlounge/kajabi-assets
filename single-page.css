@@ -97,6 +97,11 @@ h5 {
   bottom: 20px;
   right: 5px;
 }
+.nav-wrapper #nav{
+  display: inline-flex;
+  align-items: center;
+
+}
 
 @media only screen and (max-width: 1015px) {
   .inside-navigation {
