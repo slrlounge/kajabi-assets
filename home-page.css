@@ -15,12 +15,14 @@
   color: #999999;
 }
 .includes img{
+
   margin-right: 15px;
   
 }
 .includes div{
   height: 60px;
   margin-bottom: 15px;
+  font-size: 18px;
 }
 
 .training img, .training-two img{
