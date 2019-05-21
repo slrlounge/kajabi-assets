@@ -15,9 +15,7 @@
   color: #999999;
 }
 .includes img{
-
-  justify-self: end;
-  
+  justify-self: center;
 }
 .includes div{
   margin-bottom: 15px;
