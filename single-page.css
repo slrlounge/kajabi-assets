@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 100% !important;
 }
 
-.left-column-1557421947080 {
+.left-column-1557421947080, .left-column-1558479723523 {
   display: flex;
   flex-flow: column wrap;
   height: 100%;
