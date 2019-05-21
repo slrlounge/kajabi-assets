@@ -25,10 +25,10 @@
   align-items: center;
 }
 
-.training img, .training-two img{
+.training img{
   max-height: 250px;
 }
-.training h3, .training-two h3{
+.training h3{
   z-index: 2;
   background: white;
   position: relative;
@@ -38,30 +38,30 @@
   font-weight: bold;
   
 }
-.training h4, .training-two h4{
+.training h4{
   font-weight: bold;
   color: #333333;
 }
 
-.training h5, .training-two h5{
+.training h5{
   font-size: 24px;
   font-weight: 800;
   color: #333333;
    
  }
-.training h6, .training-two h6{
+.training h6{
   margin-bottom: 0px;
   font-size: 18px;
   font-weight: bold;
   color: #999999 !important;
 }
 
-.training, .training-two{
+.training{
   position: relative;
   padding-bottom: 30px;
 }
 
-.training .line, .training-two .line{
+.training .line{
   border-bottom: 1px solid #CCCCCC;
   z-index: 1;
   position: absolute;
@@ -69,9 +69,47 @@
   top: 8px;
   
 }
-.training a, .training-two a {
+.training a{
   margin-top: 30px;
   letter-spacing: 1px;
+}
+
+/* Images for includes  */
+.includes .cpu img {
+  max-width: 60px;
+}
+
+.includes .play img {
+  max-width: 45px;
+}
+
+.includes .folder img {
+  max-width: 50px;
+}
+.includes .clock img {
+  max-width: 50px;
+}
+.includes .ribbon img {
+  max-width: 90px;
+  width: 40px;
+}
+.includes .page img {
+  max-width: 40px;
+}
+.includes span {
+  display: grid;
+  grid-template-columns: 60px 300px;
+  align-items: center;
+  text-align: left;
+  grid-gap: 20px;
+}
+
+.includes div div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1100px;
 }
 
 /* End training section  */
