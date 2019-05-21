@@ -14,11 +14,7 @@
   font-weight: 800;
   color: #999999;
 }
-.includes img{
 
-  margin-right: 15px;
-  
-}
 .includes div{
   margin-bottom: 15px;
   font-size: 18px;
@@ -27,7 +23,6 @@
 
 .training img, .training-two img{
   max-height: 250px;
-  
 }
 .training h3, .training-two h3{
   z-index: 2;
