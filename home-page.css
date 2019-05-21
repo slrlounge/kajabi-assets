@@ -5,3 +5,70 @@
 .container-1557459046325 h5, .container-1557505425359 h5, .container-1557510470631 h5, .container-1557513673071 h5 {
   margin-top: 0px;
 }
+
+
+
+.includes {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 800;
+  color: #999999;
+}
+.includes img{
+  max-height: 50px;
+  max-width: 50px;
+  width: 80px;
+  height: 90px;
+  margin: 0px 15px 15px 0px;
+  
+}
+.training h3, .training-two h3{
+  z-index: 2;
+  background: white;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  font-weight: bold;
+  
+}
+.training img, .training-two img{
+  max-height: 250px;
+  
+}
+.training h6, .training-two h6{
+  margin-bottom: 0px;
+  font-size: 18px;
+  color: #999999;
+  
+}
+.training h5, .training-two h5{
+ font-size: 24px;
+ font-weight: 800;
+ color: #333333;
+  
+}
+.training, .training-two{
+  position: relative;
+  padding-bottom: 30px;
+}
+.training h4, .training-two h4{
+  font-weight: bold;
+  color: #333333;
+}
+.includes div{
+  height: 60px;
+  margin-bottom: 15px;
+}
+.training .line, .training-two .line{
+  border-bottom: 1px solid #CCCCCC;
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  top: 8px;
+  
+}
+.training a, .training-two a {
+  margin-top: 30px;
+  letter-spacing: 1px;
+}
