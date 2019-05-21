@@ -7,7 +7,7 @@
 }
 
 
-
+/* TRAINING SECTION  */
 .includes {
   text-transform: uppercase;
   font-size: 18px;
@@ -22,6 +22,15 @@
   margin: 0px 15px 15px 0px;
   
 }
+.includes div{
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.training img, .training-two img{
+  max-height: 250px;
+  
+}
 .training h3, .training-two h3{
   z-index: 2;
   background: white;
@@ -32,34 +41,29 @@
   font-weight: bold;
   
 }
-.training img, .training-two img{
-  max-height: 250px;
-  
+.training h4, .training-two h4{
+  font-weight: bold;
+  color: #333333;
 }
+
+.training h5, .training-two h5{
+  font-size: 24px;
+  font-weight: 800;
+  color: #333333;
+   
+ }
 .training h6, .training-two h6{
   margin-bottom: 0px;
   font-size: 18px;
   font-weight: bold;
   color: #999999 !important;
 }
-.training h5, .training-two h5{
- font-size: 24px;
- font-weight: 800;
- color: #333333;
-  
-}
+
 .training, .training-two{
   position: relative;
   padding-bottom: 30px;
 }
-.training h4, .training-two h4{
-  font-weight: bold;
-  color: #333333;
-}
-.includes div{
-  height: 60px;
-  margin-bottom: 15px;
-}
+
 .training .line, .training-two .line{
   border-bottom: 1px solid #CCCCCC;
   z-index: 1;
@@ -72,3 +76,5 @@
   margin-top: 30px;
   letter-spacing: 1px;
 }
+
+/* End training section  */
