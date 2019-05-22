@@ -111,3 +111,17 @@
 }
 
 /* End training section  */
+/**
+ * Home Page: Video Popup
+ */
+.homepage-video-popup-1557511707252{
+    width:40%;
+  }
+@media (max-width: 991px) {
+    .homepage-video-popup-1557511707252{
+      width:95%;
+    }
+  }
+#er-fb-cc-1557411262141-1558468452441 {
+    width: 95%;
+}
