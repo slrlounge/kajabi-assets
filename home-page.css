@@ -111,3 +111,35 @@
 }
 
 /* End training section  */
+
+
+.quoteContainer {
+  border: 3px solid #a8a8a8;
+  border-radius: 5px 30px;
+  padding: 30px;
+  position: relative;
+  text-align:left;
+  margin: 20px;
+  font-weight: 800;
+}
+
+.quoteContainer:before {
+  content: '❝';
+  position: absolute;
+  top: -20px;
+  left: 5px;
+  font-size: 70px;
+  line-height: 1;
+  height: 50px;
+}
+
+.quoteContainer:after {
+  content: '❞';
+  position: absolute;
+  display: block;
+  font-size: 70px;
+  line-height: 1;
+  height: 0px;
+  bottom: 20px;
+  right: 5px;
+}
