@@ -163,6 +163,11 @@ align-content: center;
     .homepage-video-popup-1557511707252{
       width:95%;
     }
+    .left-column-1558479723523 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      max-height: auto;
+    }
   }
 #er-fb-cc-1557411262141-1558468452441 {
     width: 95%;
@@ -205,11 +210,3 @@ align-content: center;
     border-bottom: 1px solid #6666;
 }
 /** end FAQ header **/
-
-@media screen and (max-width: 700px) {
-  .left-column-1558479723523 {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    max-height: auto;
-  }
-}
