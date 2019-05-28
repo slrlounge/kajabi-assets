@@ -1,8 +1,15 @@
-.container-1557459046325 h6, .container-1557505425359 h6, .container-1557510470631 h6, .container-1557513673071 h6 {
+.container-1557459046325 h6,
+.container-1557505425359 h6,
+.container-1557510470631 h6,
+.container-1557513673071 h6 {
   margin-top: 0px;
   margin-bottom: 5px;
 }
-.container-1557459046325 h5, .container-1557505425359 h5, .container-1557510470631 h5, .container-1557513673071 h5 {
+
+.container-1557459046325 h5,
+.container-1557505425359 h5,
+.container-1557510470631 h5,
+.container-1557513673071 h5 {
   margin-top: 0px;
 }
 
@@ -14,19 +21,22 @@
   font-weight: 800;
   color: #999999;
 }
-.includes img{
+
+.includes img {
   justify-self: center;
 }
-.includes div{
+
+.includes div {
   margin-bottom: 15px;
   font-size: 18px;
   align-items: center;
 }
 
-.training img{
+.training img {
   max-height: 250px;
 }
-.training h3{
+
+.training h3 {
   z-index: 2;
   background: white;
   position: relative;
@@ -34,40 +44,43 @@
   margin-right: auto;
   max-width: 500px;
   font-weight: bold;
-  
+
 }
-.training h4{
+
+.training h4 {
   font-weight: bold;
   color: #333333;
 }
 
-.training h5{
+.training h5 {
   font-size: 24px;
   font-weight: 800;
   color: #333333;
-   
- }
-.training h6{
+
+}
+
+.training h6 {
   margin-bottom: 0px;
   font-size: 18px;
   font-weight: bold;
   color: #999999 !important;
 }
 
-.training{
+.training {
   position: relative;
   padding-bottom: 30px;
 }
 
-.training .line{
+.training .line {
   border-bottom: 1px solid #CCCCCC;
   z-index: 1;
   position: absolute;
   width: 100%;
   top: 8px;
-  
+
 }
-.training a{
+
+.training a {
   margin-top: 30px;
   letter-spacing: 1px;
 }
@@ -84,16 +97,20 @@
 .includes .folder img {
   max-width: 50px;
 }
+
 .includes .clock img {
   max-width: 50px;
 }
+
 .includes .ribbon img {
   max-width: 90px;
   width: 40px;
 }
+
 .includes .page img {
   max-width: 40px;
 }
+
 .includes span {
   display: grid;
   grid-template-columns: 60px 300px;
@@ -110,22 +127,28 @@
   max-width: 1100px;
 }
 
-/* End training section  */
 
 /** review section **/
 .left-column-1558479723523 {
-display: flex;
-flex-flow: column wrap;
-height: 100%;
-max-height: 1200px;
-align-content: center;
+  display: flex;
+  flex-flow: column wrap;
+  height: 100%;
+  max-height: 1200px;
+  align-content: center;
+}
+.clock-action-none-1558479723523 {
+  width: 25%;
+  min-width: 300px;
+}
+.clock-action-none-1558479723523 div {
+  width: 100%;
 }
 .quoteContainer {
   border: 3px solid #a8a8a8;
   border-radius: 5px 30px;
   padding: 30px;
   position: relative;
-  text-align:left;
+  text-align: left;
   margin: 20px;
   font-weight: 800;
 }
@@ -153,27 +176,7 @@ align-content: center;
 
 
 
-/**
- * Home Page: Video Popup
- */
-.homepage-video-popup-1557511707252{
-    width:40%;
-  }
-@media (max-width: 991px) {
-    .homepage-video-popup-1557511707252{
-      width:95%;
-    }
-    .left-column-1558479723523 {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      max-height: auto;
-    }
-  }
-#er-fb-cc-1557411262141-1558468452441 {
-    width: 95%;
-}
-
-/** 2nd Navigation **/ 
+/** 2nd Navigation **/
 .section--1559049321619 .col-md-1 {
   width: auto;
   text-align: center;
@@ -184,29 +187,56 @@ align-content: center;
   padding-bottom: 20px;
   position: relative;
   z-index: 2;
-  border-bottom: 6px solid rgba(0,0,0,0);
+  border-bottom: 6px solid rgba(0, 0, 0, 0);
 }
 
 .section--1559049321619 .col-md-1 a:hover {
   color: #6BB9D3;
   font-weight: bold;
 }
+
 .section--1559049321619 .col-md-1:hover {
   border-bottom: 6px solid #6BB9D3;
 }
 
 
-/** end 2nd Navigation **/
-
-
-/** FAQ header **/ 
+/** FAQ header **/
 
 .section--1559052436621 .heading__title {
-    font-size: 36px;
-    font-weight: bold;
+  font-size: 36px;
+  font-weight: bold;
 }
 
 .section--1559052436621 .heading {
-    border-bottom: 1px solid #6666;
+  border-bottom: 1px solid #6666;
 }
-/** end FAQ header **/
+
+/**
+ * Home Page: Video Popup
+ */
+.homepage-video-popup-1557511707252 {
+  width: 40%;
+}
+
+@media (max-width: 991px) {
+
+  /** homepage popup mobile **/
+  .homepage-video-popup-1557511707252 {
+    width: 95%;
+  }
+
+  /** review section mobile **/
+  .left-column-1558479723523 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    max-height: none;
+  }
+  .clock-action-none-1558479723523 {
+    width: 100%;
+    min-width: 300px;
+  }
+}
+
+#er-fb-cc-1557411262141-1558468452441 {
+  width: 95%;
+}
