@@ -157,3 +157,28 @@
 #er-fb-cc-1557411262141-1558468452441 {
     width: 95%;
 }
+
+/** 2nd Navigation **/ 
+.section--1559049321619 .col-md-1 {
+  width: auto;
+  text-align: center;
+  text-transform: uppercase;
+  color: #666;
+  font-size: 18px;
+  margin-bottom: -20px;
+  padding-bottom: 20px;
+  position: relative;
+  z-index: 2;
+  border-bottom: 6px solid rgba(0,0,0,0);
+}
+
+.section--1559049321619 .col-md-1 a:hover {
+  color: #6BB9D3;
+  font-weight: bold;
+}
+.section--1559049321619 .col-md-1:hover {
+  border-bottom: 6px solid #6BB9D3;
+}
+
+
+/** end 2nd Navigation **/
