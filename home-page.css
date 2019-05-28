@@ -182,3 +182,17 @@
 
 
 /** end 2nd Navigation **/
+
+
+/** FAQ header **/ 
+
+.section--1559052436621 .heading__title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.section--1559052436621 .heading {
+    border-bottom: 1px solid #6666;
+}
+/** end FAQ header **/
+
