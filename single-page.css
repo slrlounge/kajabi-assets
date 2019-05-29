@@ -139,6 +139,9 @@ h5 {
 }
 
 @media screen and (max-width: 1015px) {
+  .section-divide-images {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
   .inside-navigation {
     display: none;
   }
