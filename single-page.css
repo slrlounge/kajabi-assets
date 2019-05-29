@@ -128,12 +128,19 @@ h5 {
 .workshop-includes {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  grid-gap: 5px;
+  grid-gap: 10px;
+  justify-items:center;
+  align-items: start;
 }
 
 .includes span {
   height: auto;
   min-height: 150px;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  grid-template-rows: 60px auto auto;
+  padding: 5px;
 }
 .includes .cpu img {
 max-width: 60px;
