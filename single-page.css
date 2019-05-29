@@ -128,6 +128,13 @@ h5 {
   grid-gap: 10px;
   justify-items: center;
 }
+@media screen and (max-width: 575px) {
+  .section-divide-images {
+    grid-template-columns: 1fr;
+  }
+
+}
+
 @media only screen and (max-width: 1015px) {
   .inside-navigation {
     display: none;
@@ -140,12 +147,6 @@ h5 {
 
   .left-column-1557421947080 .clock-action-none-1557421947080 {
     width: 100%;
-  }
-
-}
-@media screen and (max-width: 575px) {
-  .section-divide-images {
-    grid-template-columns: 1fr;
   }
 
 }
