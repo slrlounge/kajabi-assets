@@ -125,11 +125,11 @@ h5 {
 .section-divide-images {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 12px;
+  grid-gap: 10px;
   justify-items: center;
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 570px) {
   .section-divide-images {
     display: flex;
     flex-direction: column;
