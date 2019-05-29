@@ -127,7 +127,7 @@ h5 {
 
 .section-divide-images {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
   justify-items: center;
 }
@@ -148,9 +148,7 @@ img {
   .inside-navigation {
     display: none;
   }
-  .section-divide-images {
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  }
+
   /** review section **/
   .left-column-1557421947080 {
     height: auto;
