@@ -258,6 +258,9 @@
 }
 
 @media (max-width: 991px) {
+  .includes div div {
+  margin-left: auto;
+  }
 
   /** homepage popup mobile **/
   .homepage-video-popup-1557511707252 {
