@@ -10,6 +10,7 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 100% !important;
 }
 
+/** review section **/
 .left-column-1557421947080 {
   display: flex;
   flex-flow: column wrap;
@@ -122,9 +123,11 @@ h5 {
   margin: 0px 0px 1rem 0px;
 }
 
+/** images 4 across desktop**/
+
 .section-divide-images {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   grid-gap: 10px;
   justify-items: center;
 }
@@ -133,6 +136,7 @@ img {
   margin: 0px !important;
 }
 @media only screen and (max-width: 775px) {
+  /** images 4 across mobile **/
   .section-divide-images {
     grid-template-columns: 1fr;
   }
@@ -140,10 +144,12 @@ img {
 }
 
 @media screen and (max-width: 1300px) {
+  /** hide navigation in tablet/mobile **/
   .inside-navigation {
     display: none;
   }
 
+  /** review section **/
   .left-column-1557421947080 {
     height: auto;
     display: block;
