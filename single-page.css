@@ -149,7 +149,7 @@ img {
     display: none;
   }
   .section-divide-images {
-    grid-template-columns: repeat(aut-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   }
   /** review section **/
   .left-column-1557421947080 {
