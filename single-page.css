@@ -130,12 +130,14 @@ h5 {
 }
 @media screen and (max-width: 575px) {
   .section-divide-images {
+    display: flex;
+    flex-direction: column;
     grid-template-columns: 1fr;
   }
 
 }
 
-@media only screen and (max-width: 1015px) {
+@media screen and (max-width: 1015px) {
   .inside-navigation {
     display: none;
   }
