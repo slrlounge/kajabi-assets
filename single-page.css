@@ -143,9 +143,6 @@ img {
   .inside-navigation {
     display: none;
   }
-  .section-divide-images {
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  }
 
   .left-column-1557421947080 {
     height: auto;
