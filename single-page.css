@@ -128,14 +128,6 @@ h5 {
   grid-gap: 10px;
   justify-items: center;
 }
-@media screen and (max-width: 575px) {
-  .section-divide-images {
-    display: flex;
-    flex-direction: column;
-    grid-template-columns: 1fr;
-  }
-
-}
 
 @media screen and (max-width: 1015px) {
   .inside-navigation {
@@ -152,3 +144,13 @@ h5 {
   }
 
 }
+
+@media screen and (max-width: 575px) {
+  .section-divide-images {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+  }
+
+}
+
