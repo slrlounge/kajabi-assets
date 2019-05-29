@@ -123,6 +123,41 @@ h5 {
   margin: 0px 0px 1rem 0px;
 }
 
+/** includes section **/
+
+.workshop-includes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.includes span {
+  height: auto;
+  min-height: 150px;
+}
+.includes .cpu img {
+max-width: 60px;
+}
+
+.includes .play img {
+max-width: 45px;
+}
+
+.includes .folder img {
+max-width: 50px;
+}
+
+.includes .clock img {
+max-width: 50px;
+}
+
+.includes .ribbon img {
+max-width: 90px;
+width: 40px;
+}
+
+.includes .page img {
+max-width: 40px;
+}
 /** images 4 across desktop**/
 
 .section-divide-images {
