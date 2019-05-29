@@ -132,7 +132,7 @@ h5 {
 img {
   margin: 0px !important;
 }
-@media only screen and (max-width: 1075px) {
+@media only screen and (max-width: 775px) {
   .section-divide-images {
     grid-template-columns: 1fr;
   }
