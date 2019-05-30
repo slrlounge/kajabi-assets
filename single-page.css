@@ -178,6 +178,19 @@ max-width: 40px;
 img {
   margin: 0px !important;
 }
+
+
+/** Video popup removing scroll **/ 
+
+.video__wrapper {
+  height: 100%;
+  width: 100vmin;
+}
+#er-fb-cc-1557411262141_1-1557411262141_1 {
+  width: 100vmin !important;
+}
+
+
 @media only screen and (max-width: 775px) {
   /** images 4 across mobile **/
   .section-divide-images {
