@@ -166,6 +166,7 @@ width: 40px;
 .includes .page img {
 max-width: 40px;
 }
+
 /** images 4 across desktop**/
 
 .section-divide-images {
@@ -173,10 +174,41 @@ max-width: 40px;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
   justify-items: center;
+  margin-bottom: 1rem;
 }
 
 img {
   margin: 0px !important;
+}
+
+.section-divide-images div {
+  position: relative;
+}
+
+.section-divide-images .overlay-bottom {
+  position: absolute;
+  z-index: 2;
+  font-weight: 800;
+  width: 100%;
+  left: 0px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  font-size: 20px;
+  top: 70%;
+  color: white;
+  line-height: 1.2;
+}
+
+.section-divide-images .overlay-top {
+   position: absolute;
+  z-index: 2;
+  font-weight: 800;
+  width: 100%;
+  left: 0px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  font-size: 20px;
+  top: 5%;
+  color: white;   
+  line-height: 1.2;
 }
 
 
