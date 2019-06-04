@@ -241,6 +241,7 @@ img {
   /** review section **/
   .left-column-1557421947080 {
     height: auto;
+    max-height: 100%;
     display: block;
   }
 
