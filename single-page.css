@@ -191,7 +191,6 @@ img {
   font-weight: 800;
   width: 100%;
   left: 0px;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   font-size: 20px;
   bottom: 5%;
   color: white;
@@ -204,7 +203,7 @@ img {
   font-weight: 800;
   width: 100%;
   left: 0px;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
   font-size: 20px;
   top: 5%;
   color: white;   
