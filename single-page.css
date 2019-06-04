@@ -191,7 +191,7 @@ img {
   font-weight: 800;
   width: 100%;
   left: 0px;
-  font-size: 1rem;
+  font-size: 150%;
   bottom: 5%;
   color: white;
   line-height: 1.2;
@@ -203,7 +203,7 @@ img {
   font-weight: 800;
   width: 100%;
   left: 0px;
-  font-size: 1rem;
+  font-size: 150%;
   top: 5%;
   color: white;   
   line-height: 1.2;
@@ -222,7 +222,7 @@ div[id^='er-fb-cc'] {
 }
 
 
-@media only screen and (max-width: 775px) {
+@media screen and (max-width: 775px) {
   /** images 4 across mobile **/
   .section-divide-images {
     grid-template-columns: 1fr;
@@ -238,6 +238,7 @@ div[id^='er-fb-cc'] {
   .inside-navigation {
     display: none;
   }
+
 
   /** review section **/
   .left-column-1557421947080 {
