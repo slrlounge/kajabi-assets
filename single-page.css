@@ -226,7 +226,7 @@ img {
   .section-divide-images {
     grid-template-columns: 1fr;
   }
-  .overlay-bottom, .overlay-top {
+  .section-divide-images .overlay-bottom, .section-divide-images .overlay-top {
     font-size: 2rem;
   }
 
