@@ -191,7 +191,7 @@ img {
   font-weight: 800;
   width: 100%;
   left: 0px;
-  font-size: 20px;
+  font-size: 1rem;
   bottom: 5%;
   color: white;
   line-height: 1.2;
@@ -203,7 +203,7 @@ img {
   font-weight: 800;
   width: 100%;
   left: 0px;
-  font-size: 20px;
+  font-size: 1rem;
   top: 5%;
   color: white;   
   line-height: 1.2;
@@ -227,9 +227,9 @@ div[id^='er-fb-cc'] {
   .section-divide-images {
     grid-template-columns: 1fr;
   }
-  .section-divide-images .overlay-bottom, .section-divide-images .overlay-top {
+  /* .section-divide-images .overlay-bottom, .section-divide-images .overlay-top {
     font-size: 1.5rem;
-  }
+  } */
 
 }
 
