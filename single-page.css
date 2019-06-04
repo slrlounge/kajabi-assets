@@ -216,7 +216,8 @@ img {
   height: 100%;
   width: 100vmin;
 }
-#er-fb-cc-1557411262141_1-1557411262141_1 {
+
+div[id^='er-fb-cc'] {
   width: 100vmin !important;
 }
 
