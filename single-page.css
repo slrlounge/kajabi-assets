@@ -227,9 +227,9 @@ div[id^='er-fb-cc'] {
   .section-divide-images {
     grid-template-columns: 1fr;
   }
-  /* .section-divide-images .overlay-bottom, .section-divide-images .overlay-top {
-    font-size: 1.5rem;
-  } */
+  .section-divide-images .overlay-bottom, .section-divide-images .overlay-top {
+    font-size: 6vmin;
+  }
 
 }
 
