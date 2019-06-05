@@ -260,6 +260,11 @@
   background: none !important;
 }
 
+.fancybox-button svg {
+  background: white;
+  border-radius: 50%
+}
+
 @media (max-width: 991px) {
   .includes div div {
   margin-left: auto;
