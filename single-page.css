@@ -247,12 +247,12 @@ img {
 
 /** Video popup removing scroll **/ 
 
-.video__wrapper {
+.fancybox-container .video__wrapper {
   height: 100%;
   width: 100vmin;
 }
 
-div[id^='er-fb-cc'] {
+.fancybox-container div[id^='er-fb-cc'] {
   width: 100vmin !important;
 }
 
