@@ -40,15 +40,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .left-column-1557421947080 .clock-action-none-1557421947080 {
-  width: 28%;
+  width: 25%;
   min-width: 300px;
   position: relative;
 }
-/* .left-column-1557421947080 .clock-action-none-1557421947080 {
-  width: 100%;
-  min-width: 300px;
-  position: relative;
-} */
 
 .quoteContainer {
   border: 3px solid #a8a8a8;
