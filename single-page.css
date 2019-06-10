@@ -247,6 +247,58 @@ img {
   color: black;
 }
 
+/** price opts **/
+
+.price-opts {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr))
+}
+.price-opts h4 {
+  font-size: 1.2rem;
+  font-weight: 200;
+  margin: 0px;
+}
+.price-opts h2 {
+  font-size: 50px;
+  margin: 0px;
+}
+.price-opts h3 {
+  margin: 0px;
+}
+.price-opts .list {
+  text-align: left;
+  margin-left: 20px;
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.price-opts button {
+  width: 100%;
+  height: 60px;
+  border: 0px;
+  background: #4dbcd7;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.price-opts .workshop, .price-opts .premium {
+  padding: 20px 30px;
+  background: white;
+  box-shadow: 0px 0px 10px #888888;
+  border-radius: 5px;
+  display: grid;
+  grid-template-rows: 50px 50px 80px 40px 200px 80px auto;
+  align-items: start;
+}
+
+.price-opts h3 {
+  font-size: 24px;
+}
+
+
 /** Video popup removing scroll **/ 
 
 .fancybox-container .video__wrapper {
