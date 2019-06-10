@@ -278,8 +278,13 @@ img {
     display: none;
   }
 
+  .quoteMain {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 15px;
+  }
 
-  /** review section **/
+  /* * review section *
   .left-column-1557421947080 {
     height: auto;
     max-height: 100%;
@@ -288,6 +293,6 @@ img {
 
   .left-column-1557421947080 .clock-action-none-1557421947080 {
     width: 100%;
-  }
+  } */
 }
 
