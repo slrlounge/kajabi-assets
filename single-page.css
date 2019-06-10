@@ -210,6 +210,16 @@ img {
   color: white;   
   line-height: 1.2;
 }
+/** official price options **/
+.fa-ul {
+  text-align: left;
+}
+
+.fa-ul p {
+  margin-top: 5px;
+  margin-top: 5px;
+}
+
 /** Price Options **/
 
 .price-options {
