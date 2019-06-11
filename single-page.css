@@ -298,11 +298,19 @@ img {
   box-shadow: 0px 0px 10px #888888;
   border-radius: 5px;
   display: grid;
-  grid-template-rows: 35px 50px 80px 40px 200px 80px auto;
+  grid-template-rows: 35px 50px 80px 40px auto 80px auto;
   align-items: start;
 }
 
-
+.price-opts-head {
+  margin-bottom: 45px;
+}
+.price-opts span h4 {
+  font-weight: 600;
+}
+.price-opts li {
+  margin: 5px 0px;
+}
 
 /** Video popup removing scroll **/ 
 
