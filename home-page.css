@@ -274,6 +274,7 @@
 
 .homepage-workshop {
   display: flex;
+  justify-content: center;
 }
 .homepage-workshop ul {
   list-style-type: none;
