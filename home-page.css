@@ -270,6 +270,7 @@
   opacity: 0.5;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 15px;
 }
 
 .homepage-workshop {
