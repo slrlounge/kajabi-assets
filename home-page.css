@@ -316,8 +316,7 @@
 
   /** images include **/
   .cpu {
-    width: 24px;
-    margin-right: 10px;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -325,24 +324,34 @@
 }
 
 .clock{
-    width: 20px;
-    margin-right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
 }
 .play {
-    width: 18px;
-    margin-right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
 }
 .ribbon {
-    width: 18px;
-    margin-right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
 }
 .folder {
-    width: 20px;
-    margin-right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
 }
 .page{
-    width: 18px;
-    margin-right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
 }
 .homepage-workshop div ul li span img {
   width: 30%;
