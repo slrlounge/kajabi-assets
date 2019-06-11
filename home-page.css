@@ -86,29 +86,30 @@
 }
 
 /* Images for includes  */
-.includes .cpu img {
-  max-width: 60px;
+.cpu img {
+  width: 24px;
+  margin-right: 10px;
 }
 
-.includes .play img {
-  max-width: 45px;
+.clock img {
+  width: 20px;
+  margin-right: 10px;
 }
-
-.includes .folder img {
-  max-width: 50px;
+.play img {
+  width: 18px;
+  margin-right: 10px;
 }
-
-.includes .clock img {
-  max-width: 50px;
+.ribbon img {
+  width: 18px;
+  margin-right: 10px;
 }
-
-.includes .ribbon img {
-  max-width: 90px;
-  width: 40px;
+.folder img {
+  width: 20px;
+  margin-right: 10px;
 }
-
-.includes .page img {
-  max-width: 40px;
+.page img {
+  width: 18px;
+  margin-right: 10px;
 }
 
 .includes span {
@@ -312,6 +313,40 @@
   .section--1559049321619 .col-md-1:hover {
     border-bottom: 6px solid rgba(0, 0, 0, 0);
   }
+
+  /** images include **/
+  .cpu {
+    width: 24px;
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.clock{
+    width: 20px;
+    margin-right: 10px;
+}
+.play {
+    width: 18px;
+    margin-right: 10px;
+}
+.ribbon {
+    width: 18px;
+    margin-right: 10px;
+}
+.folder {
+    width: 20px;
+    margin-right: 10px;
+}
+.page{
+    width: 18px;
+    margin-right: 10px;
+}
+.homepage-workshop div ul li span img {
+  width: 30%;
+}
 }
 
 #er-fb-cc-1557411262141-1558468452441 {
