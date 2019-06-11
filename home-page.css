@@ -306,7 +306,9 @@
 .homepage-workshop div ul li span{
   white-space: nowrap;
 }
-
+.product-item {
+  min-width: 250px;
+}
 @media (max-width: 991px) {
   .includes div div {
     margin-left: auto;
@@ -316,9 +318,7 @@
     width: 100%;
   }
 /** homepage library fix **/
-.product-item {
-  min-width: 250px;
-}
+
 
   /** homepage popup mobile **/
   .homepage-video-popup-1557511707252 {
