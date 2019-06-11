@@ -298,7 +298,7 @@
   padding: 0px 15px 0px 0px;
   text-align: left;
 }
-.homepage-workshop div ul li {
+.homepage-workshop div ul li span{
   white-space: nowrap;
 }
 
