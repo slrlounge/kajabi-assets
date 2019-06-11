@@ -315,7 +315,10 @@
   .col-md-6 {
     width: 100%;
   }
-
+/** homepage library fix **/
+.product-item {
+  min-width: 250px;
+}
 
   /** homepage popup mobile **/
   .homepage-video-popup-1557511707252 {
