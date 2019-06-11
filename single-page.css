@@ -298,7 +298,7 @@ img {
   box-shadow: 0px 0px 10px #888888;
   border-radius: 5px;
   display: grid;
-  grid-template-rows: 35px 50px 80px 40px auto 80px auto;
+  grid-template-rows: 35px 50px 80px 60px auto 80px auto;
   align-items: start;
 }
 
