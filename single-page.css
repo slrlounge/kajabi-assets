@@ -291,6 +291,7 @@ img {
   background: #4dbcd7;
   color: white;
   font-size: 1.5rem;
+  border-radius: 5px;
 }
 
 .price-opts .workshop, .price-opts .premium {
