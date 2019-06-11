@@ -279,7 +279,7 @@
 }
 .homepage-workshop div ul {
   list-style-type: none;
-  padding: 0px;
+  padding: 0px 15px 0px 0px;
 }
 
 @media (max-width: 991px) {
