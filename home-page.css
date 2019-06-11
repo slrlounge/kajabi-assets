@@ -317,41 +317,47 @@
   /** images include **/
   .cpu {
 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
     text-align: center;
+    align-items: start;
+    grid-template-rows: 40px 1fr;
+    justify-items: center;
 }
 
 .clock{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
   text-align: center;
+  align-items: start;
+  grid-template-rows: 40px 1fr;
+  justify-items: center;
 }
 .play {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
   text-align: center;
+  align-items: start;
+  grid-template-rows: 40px 1fr;
+  justify-items: center;
 }
 .ribbon {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
   text-align: center;
+  align-items: start;
+  grid-template-rows: 40px 1fr;
+  justify-items: center;
 }
 .folder {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
   text-align: center;
+  align-items: start;
+  grid-template-rows: 40px 1fr;
+  justify-items: center;
 }
 .page{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
   text-align: center;
+  align-items: start;
+  grid-template-rows: 40px 1fr;
+  justify-items: center;
 }
 .homepage-workshop div ul li span img {
   width: 30%;
