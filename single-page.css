@@ -10,15 +10,6 @@ h1, h2, h5, h6 {
   max-width: 100% !important;
 }
 
-/** review section **/
-/* .left-column-1557421947080 {
-  display: flex;
-  flex-flow: column wrap;
-  height: auto;
-  max-height: 1600px;
-  align-content: center;
-
-} */
 
 .quoteMain {
   column-count: 3;
@@ -218,34 +209,6 @@ img {
   margin-top: 5px;
 }
 
-/** Price Options **/
-
-.price-options {
-  margin-top: 35px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 30px;
-  font-weight: 800;
-  font-size: 1rem;
-  grid-row-gap: 10px;
-}
-
-.price-options a, .price-options button, .price-options p {
-  margin: 0px;
-  width: 100%;
-  height: 50px;
-}
-
-.price-options button {
-  background: #4dbcd7;
-  border: 0px;
-  border-radius: 5px;
-  color: white;
-}
-
-.price-options p {
-  color: black;
-}
 
 /** price opts **/
 
@@ -372,16 +335,5 @@ img {
     padding: 0 0 0 5px;
   }
 
-
-  /* * review section *
-  .left-column-1557421947080 {
-    height: auto;
-    max-height: 100%;
-    display: block;
-  }
-
-  .left-column-1557421947080 .clock-action-none-1557421947080 {
-    width: 100%;
-  } */
 }
 
