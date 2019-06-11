@@ -358,6 +358,17 @@ img {
     grid-gap: 15px;
   }
 
+  .price-opts .workshop, .price-opts .premium {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(40px, auto));
+
+  }
+  .price-opts .list {
+    margin-left: 0px;
+    padding: 0 0 0 5px;
+  }
+
+
   /* * review section *
   .left-column-1557421947080 {
     height: auto;
