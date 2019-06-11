@@ -265,10 +265,25 @@
   border-radius: 50%
 }
 
+/** homepage workshop section **/
+.affiliates {
+  opacity: 0.5;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.homepage-workshop {
+  display: flex;
+}
+
 @media (max-width: 991px) {
   .includes div div {
   margin-left: auto;
   }
+.block--1559147673338_1 {
+  width: 100%;
+}
+
 
   /** homepage popup mobile **/
   .homepage-video-popup-1557511707252 {
