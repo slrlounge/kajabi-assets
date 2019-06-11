@@ -275,6 +275,10 @@
 .homepage-workshop {
   display: flex;
 }
+.homepage-workshop ul {
+  list-style-type: none;
+  padding: 0px;
+}
 
 @media (max-width: 991px) {
   .includes div div {
