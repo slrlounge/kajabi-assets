@@ -300,6 +300,12 @@ img {
   display: grid;
   grid-template-rows: 35px 50px 80px 60px auto 80px auto;
   align-items: start;
+  transition: .1s;
+}
+.price-opts .workshop:hover, .price-opts .premium:hover {
+  transform: scale(1.05);
+  z-index: 1;
+  transition: .1s;
 }
 
 .price-opts-head {
