@@ -251,13 +251,20 @@ img {
 
 .price-opts {
   display: grid;
-  grid-column-gap: 20px;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr))
 }
 .price-opts h4 {
   font-size: 1.2rem;
   font-weight: 200;
   margin: 0px;
+}
+
+.price-opts p {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
 }
 .price-opts h2 {
   font-size: 50px;
