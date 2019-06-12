@@ -77,7 +77,8 @@
   position: absolute;
   width: 100%;
   top: 8px;
-
+  right: 0px;
+  box-sizing: border-box;
 }
 
 .training a {
