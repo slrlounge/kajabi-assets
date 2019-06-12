@@ -283,9 +283,13 @@
 /** homepage workshop section **/
 .affiliates {
   opacity: 0.5;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-column-gap: 15px;
+  display: flex;
+  justify-content: center;
+}
+.affiliates img {
+  width: 100%;
+  max-width: 80px;
+  margin-right: 15px;
 }
 
 .homepage-workshop {
