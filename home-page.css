@@ -288,9 +288,10 @@
   justify-content: center;
 }
 .affiliates img {
-  width: 100%;
-  max-width: 80px;
+  width: 18%;
+  max-width: 100px;
   margin-right: 15px;
+  height: 100%;
 }
 
 .homepage-workshop {
