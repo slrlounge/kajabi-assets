@@ -286,9 +286,10 @@
   opacity: 0.5;
   display: flex;
   justify-content: center;
+  box-sizing: border-box;
 }
 .affiliates img {
-  width: 19%;
+  width: 18%;
   max-width: 100px;
   height: 100%;
   padding-right: 10px;
