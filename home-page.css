@@ -293,7 +293,12 @@
   max-width: 100px;
   height: 100%;
   padding-right: 10px;
+  margin: 0px;
 }
+.section--1560095518550 {
+  padding: 10px 0px;
+}
+
 
 .affiliates img:last-child {
   padding-right: 0px;
