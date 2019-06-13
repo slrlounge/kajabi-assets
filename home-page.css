@@ -288,11 +288,15 @@
   justify-content: center;
 }
 .affiliates img {
-  width: 18%;
-  max-width: 80px;
+  width: 19%;
+  max-width: 100px;
   height: 100%;
+  padding-right: 10px;
 }
 
+.affiliates img:last-child {
+  padding-right: 0px;
+}
 .homepage-workshop {
   display: flex;
   justify-content: center;
