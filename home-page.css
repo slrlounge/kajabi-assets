@@ -327,10 +327,11 @@
   display: flex;
   justify-content: center;
   box-sizing: border-box;
+  flex-wrap: wrap;
 }
 .affiliates img {
   width: 18%;
-  max-width: 100px;
+  max-width: 70px;
   height: 100%;
   padding-right: 10px;
   margin: 0px;
