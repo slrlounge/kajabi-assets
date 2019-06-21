@@ -338,7 +338,7 @@
   font-size: 12px;
   font-weight: 800;
   float: left;
-  margin: 4px 50px 0px 0px;
+  margin: 4px 150px 0px 0px;
 }
 .affiliates img {
   width: 70px;
@@ -380,7 +380,8 @@
 @media (max-width: 991px) {
   .featuredon {
     float: none;
-    margin: 0px
+    margin: 0px;
+    width: 100%;
   }
 
   .includes div div {
