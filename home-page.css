@@ -335,8 +335,14 @@
   margin: 0px;
   margin-right: 10%;
 }
+.featuredon {
+  font-size: 12px;
+  font-weight: 800;
+  float: left;
+  margin: 0px;
+}
 .affiliates img {
-  width: 18%;
+  width: 70px;
   max-width: 70px;
   height: 100%;
   padding-right: 10px;
