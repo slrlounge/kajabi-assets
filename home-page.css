@@ -246,7 +246,7 @@
 .right-column-1557511707252 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-
+  grid-column-gap: 1rem;
 }
 
 .clock-action-none-1557511707252 {
@@ -388,6 +388,25 @@
     justify-items: center;
     grid-column-gap: 10px;
   }
+
+  /* latest release mobile */
+  .right-column-1557511707252 {
+    grid-template-columns: 1fr;
+  }
+
+  .clock-action-none-1557511707252:nth-last-child(1) {
+    grid-column: 1;
+    align-self: center;
+    padding: 0 15px;
+    width: 100%;
+  }
+  
+  .clock-action-none-1557511707252:nth-last-child(2) {
+    grid-column: 1;
+    justify-self: center;
+    width: 100%;
+  }
+
   .featuredon {
     float: none;
     margin: 0px;
