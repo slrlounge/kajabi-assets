@@ -393,6 +393,9 @@
   .right-column-1557511707252 {
     grid-template-columns: 1fr;
   }
+  .clock-action-none-1557511707252 a {
+    width: 100%;
+  }
 
   .clock-action-none-1557511707252:nth-last-child(1) {
     grid-column: 1;
