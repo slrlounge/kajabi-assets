@@ -46,16 +46,14 @@
 }
 .vbox-close{
     cursor: pointer;
-    position: fixed;
-    top: -1px;
-    right: 0;
-    width: 50px;
-    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 1%;
     padding: 6px;
     display: block;
-    background-position:10px center;
+    background-position: 10px center;
     overflow: hidden;
-    font-size: 24px;
+    font-size: 80px;
     line-height: 1;
     text-align: center;
     z-index: 1050;
