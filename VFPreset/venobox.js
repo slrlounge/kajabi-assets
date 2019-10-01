@@ -747,8 +747,8 @@
                     } else {
                         margine = '30px';
                     }
-                    content.css('margin-top', margine);
-                    content.css('margin-bottom', margine);
+                    // content.css('margin-top', margine);
+                    // content.css('margin-bottom', margine);
                     option.cb_post_resize();
                 }
 
